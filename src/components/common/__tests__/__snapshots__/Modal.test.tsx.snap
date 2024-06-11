@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal Component should not render when isOpen is false 1`] = `<DocumentFragment />`;
+
+exports[`Modal Component should render correctly when isOpen is true 1`] = `
+<DocumentFragment>
+  <div
+    class="fixed inset-0 z-50 flex items-center justify-center bg-gray-900 bg-opacity-75"
+    id="modal"
+  >
+    <div
+      class="relative w-3/4  max-w-4xl  bg-white p-4 rounded-3xl overflow-y-auto"
+    >
+      <button
+        class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+        id="close"
+        role="close"
+      >
+        <svg
+          class="h-6 w-6"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M6 18L18 6M6 6l12 12"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          />
+        </svg>
+      </button>
+      <div>
+        Modal Content
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

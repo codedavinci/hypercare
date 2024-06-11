@@ -1,0 +1,25 @@
+[
+    {
+      "id": "1",
+      "username": "johndoe",
+      "firstname": "John",
+      "lastname": "Doe",
+      "email": "johndoe@example.com",
+      "description": "A sample user",
+      "role": "user",
+      "join_date": "2023-01-01",
+      "avatar": "avatar1.png"
+    },
+    {
+      "id": "2",
+      "username": "janedoe",
+      "firstname": "Jane",
+      "lastname": "Doe",
+      "email": "janedoe@example.com",
+      "description": "Another sample user",
+      "role": "admin",
+      "join_date": "2023-01-02",
+      "avatar": "avatar2.png"
+    }
+  ]
+  

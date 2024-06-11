@@ -21,9 +21,9 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "types": ["@testing-library/cypress"],
+    "types": ["jest", "@testing-library/cypress"],
   },
-  "exclude": ["./cypress.config.ts"],
-  "include": ["src", "cypress"],
+  "exclude": ["cypress/global.d.ts"],
+  "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

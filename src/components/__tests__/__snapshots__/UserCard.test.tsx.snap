@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserCard Component should render correctly and match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="card bg-base-100 shadow-xl items-center"
+  >
+    <div
+      class="pt-6"
+    >
+      <div
+        class="avatar"
+      >
+        <div
+          class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2"
+        >
+          <img
+            alt="John Doe's profile photo"
+            src="avatar1.png"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="card-body items-center text-center"
+    >
+      <h2
+        class="card-title"
+      >
+        John Doe
+      </h2>
+      <div
+        class="badge badge-primary"
+        data-theme="light"
+      >
+        user
+      </div>
+      <div
+        class="line-clamp-3"
+      >
+        A sample user
+      </div>
+      <div
+        class="card-actions"
+      >
+        <button
+          class="btn btn-primary"
+          id="view-more"
+        >
+          View More
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
